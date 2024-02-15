@@ -59,7 +59,7 @@ def test_add_income(driver):
     el13 = driver.find_element(by=AppiumBy.ID, value="com.moneytower.expmngr:id/saveBtn")
     el13.click()
 
-    
+    ##################
     #pour lancer l'exécution et générer un rapport avec
     #pytest --html=report.html .\Expence_apk_test_pytest.py
 
